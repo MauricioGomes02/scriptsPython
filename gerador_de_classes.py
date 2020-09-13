@@ -14,24 +14,15 @@ if os.path.exists(caminhoRaiz + '\\' + 'renomear.py'):
 
 #Setar informações:
 listaDeParametros = [{
-    'NomeClasse': 'bulldog',
+    'NomeClasse': 'NomeDaPrimeiraClasse',
     'Atributos': [
-        'comida',
-        'qtdCoco',
-        'tmpDormir',
-        'tmpBrincar',
-        'qtdLatido',
+        'NomeDoAtributo',
     ]},
-    {'NomeClasse': 'bulldog',
+    {'NomeClasse': 'NomeDaSegundaClasse',
     'Atributos': [
-        'comida',
-        'qtdCoco',
-        'tmpDormir',
-        'tmpBrincar',
-        'qtdLatido',
+        'NomeDoAtributo',
     ]}
 ]
-print(len(listaDeParametros))
 
 #Cria arquivo renomear.py
 arquivoParaEscrita = open(caminhoRaiz + '\\' + 'renomear.py', 'a')
