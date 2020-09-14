@@ -13,6 +13,7 @@ if os.path.exists(caminhoRaiz + '\\' + 'renomear.py'):
     print('Arquivo deletado!')
 
 #Setar informações:
+#Não se esqueça que só deve alterar os valores do nosso dicionário, as chaves 'NomeClasse' e 'Atributos' não devem ser alteradas!
 listaDeParametros = [{
     'NomeClasse': 'NomeDaPrimeiraClasse',
     'Atributos': [
